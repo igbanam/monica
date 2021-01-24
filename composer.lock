@@ -12161,12 +12161,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
@@ -12359,16 +12359,16 @@
         },
         {
             "name": "barryvdh/laravel-debugbar",
-            "version": "v3.5.1",
+            "version": "v3.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "233c10688f4c1a6e66ed2ef123038b1363d1bedc"
+                "reference": "cae0a8d1cb89b0f0522f65e60465e16d738e069b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/233c10688f4c1a6e66ed2ef123038b1363d1bedc",
-                "reference": "233c10688f4c1a6e66ed2ef123038b1363d1bedc",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/cae0a8d1cb89b0f0522f65e60465e16d738e069b",
+                "reference": "cae0a8d1cb89b0f0522f65e60465e16d738e069b",
                 "shasum": ""
             },
             "require": {
@@ -12381,6 +12381,7 @@
                 "symfony/finder": "^4.3|^5"
             },
             "require-dev": {
+                "mockery/mockery": "^1.3.3",
                 "orchestra/testbench-dusk": "^4|^5|^6",
                 "phpunit/phpunit": "^8.5|^9.0",
                 "squizlabs/php_codesniffer": "^3.5"
@@ -12431,7 +12432,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-07T19:32:39+00:00"
+            "time": "2021-01-06T14:21:44+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -13393,25 +13394,25 @@
         },
         {
             "name": "maximebf/debugbar",
-            "version": "v1.16.3",
+            "version": "v1.16.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maximebf/php-debugbar.git",
-                "reference": "1a1605b8e9bacb34cc0c6278206d699772e1d372"
+                "reference": "6d51ee9e94cff14412783785e79a4e7ef97b9d62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/1a1605b8e9bacb34cc0c6278206d699772e1d372",
-                "reference": "1a1605b8e9bacb34cc0c6278206d699772e1d372",
+                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/6d51ee9e94cff14412783785e79a4e7ef97b9d62",
+                "reference": "6d51ee9e94cff14412783785e79a4e7ef97b9d62",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1",
+                "php": "^7.1|^8",
                 "psr/log": "^1.0",
                 "symfony/var-dumper": "^2.6|^3|^4|^5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5"
+                "phpunit/phpunit": "^7.5.20 || ^9.4.2"
             },
             "suggest": {
                 "kriswallsmith/assetic": "The best way to manage assets",
@@ -13450,7 +13451,7 @@
                 "debug",
                 "debugbar"
             ],
-            "time": "2020-05-06T07:06:27+00:00"
+            "time": "2020-12-07T11:07:24+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -16240,16 +16241,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.4.16",
+            "version": "v4.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "c87adf3fc1cd0bf4758316a3a150d50a8f957ef4"
+                "reference": "5dfc7825f3bfe9bb74b23d8b8ce0e0894e32b544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/c87adf3fc1cd0bf4758316a3a150d50a8f957ef4",
-                "reference": "c87adf3fc1cd0bf4758316a3a150d50a8f957ef4",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/5dfc7825f3bfe9bb74b23d8b8ce0e0894e32b544",
+                "reference": "5dfc7825f3bfe9bb74b23d8b8ce0e0894e32b544",
                 "shasum": ""
             },
             "require": {
@@ -16302,7 +16303,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T11:50:19+00:00"
+            "time": "2020-12-10T16:34:26+00:00"
         },
         {
             "name": "symfony/filesystem",
